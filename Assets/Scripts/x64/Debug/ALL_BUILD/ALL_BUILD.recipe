@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>C:\dev\Muniffic\Engine-Editor\Muniffic-ScriptCore\Muniffic-ScriptCore.csproj</FullPath>
+    </NonRecipeFileRef>
+    <NonRecipeFileRef>
+      <FullPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Quest_for_the_solar_sombrero.csproj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

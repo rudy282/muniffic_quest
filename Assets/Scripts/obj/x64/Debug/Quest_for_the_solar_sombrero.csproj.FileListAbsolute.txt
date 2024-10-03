@@ -1,0 +1,7 @@
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\obj\x64\Debug\Quest_for_the_solar_sombrero.csproj.AssemblyReference.cache
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\obj\x64\Debug\Quest_for_the_solar_sombrero.csproj.CoreCompileInputs.cache
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\Quest_for_the_solar_sombrero.dll
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\Muniffic-ScriptCore.dll
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\Muniffic-ScriptCore.pdb
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\obj\x64\Debug\Quest_fo.616A3BC1.Up2Date
+C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\obj\x64\Debug\Quest_for_the_solar_sombrero.dll

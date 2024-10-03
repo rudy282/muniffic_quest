@@ -1,0 +1,10 @@
+^C:\DEV\MUNIFFIC\ENGINE-EDITOR\PROJECTS\QUEST_FOR_THE_SOLAR_SOMBRERO\ASSETS\SCRIPTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

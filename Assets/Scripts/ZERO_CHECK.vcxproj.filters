@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\eacaae1c6f266792ca36ab049bba2667\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2BBEF7A1-6507-34EB-AED8-A37B3E4C9D39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

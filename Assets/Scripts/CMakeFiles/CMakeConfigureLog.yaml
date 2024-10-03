@@ -1,0 +1,110 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCSharpCompiler.cmake:23 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CSharp compiler identification source file "CMakeCSharpCompilerId.cs" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+      Kompilacja rozpoczęła się 2024-10-03 11:32:41.
+      
+      Projekt "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\CompilerIdCSharp.csproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "obj\\x64\\Debug\\".
+      CoreCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /define:Platformx64;PlatformToolsetv143 /highentropyva+ /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Core.dll" /debug+ /out:obj\\x64\\Debug\\CompilerIdCSharp.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 /analyzerconfig:C:\\dev\\Muniffic\\.editorconfig CMakeCSharpCompilerId.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+        CompilerServer: server - server processed compilation - 740258bd-37b5-4285-8e5b-1ee5ee3fff66
+      CopyFilesToOutputDirectory:
+        Kopiowanie pliku z "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.exe" do "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\CompilerIdCSharp.exe".
+        CompilerIdCSharp -> C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\CompilerIdCSharp.exe
+        Kopiowanie pliku z "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\obj\\x64\\Debug\\CompilerIdCSharp.pdb" do "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\CompilerIdCSharp.pdb".
+      PostBuildEvent:
+        if not "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn"=="" if exist "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe" set _CSC=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn
+        if exist "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\csc.exe" set _CSC=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64
+        if "%_CSC%"=="" exit -1
+        @echo CMAKE_CSharp_COMPILER=%_CSC%\\csc.exe
+        CMAKE_CSharp_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe
+      Kompilowanie projektu "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\3.30.3\\CompilerIdCSharp\\CompilerIdCSharp.csproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.46
+      
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.csproj"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.exe"
+      
+      Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.pdb"
+      
+      The CSharp compiler identification could not be found in:
+        C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/3.30.3/CompilerIdCSharp/CompilerIdCSharp.csproj
+      
+      The CSharp compiler identification is Microsoft Visual Studio, found in:
+        C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/3.30.3/CompilerIdCSharp/CompilerIdCSharp.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCSharpCompiler.cmake:34 (try_compile)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Check for working C# compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/csc.exe"
+    directories:
+      source: "C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/CMakeScratch/TryCompile-ds3jy4"
+      binary: "C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/CMakeScratch/TryCompile-ds3jy4"
+    cmakeVariables:
+      CMAKE_CSharp_FLAGS: "/platform:x64 /define:TRACE"
+      CMAKE_CSharp_FLAGS_DEBUG: "/debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CSharp_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/CMakeScratch/TryCompile-ds3jy4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6dac8.csproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 2024-10-03 11:32:42.
+        
+        Projekt "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\cmTC_6dac8.csproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\Debug\\".
+          Tworzenie katalogu "obj\\x64\\Debug\\".
+        CoreCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:x64 /errorreport:prompt /warn:3 /define:TRACE;DEBUG /highentropyva+ /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll" /reference:"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Core.dll" /debug+ /debug:full /optimize- /out:obj\\x64\\Debug\\cmTC_6dac8.exe /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 /analyzerconfig:C:\\dev\\Muniffic\\.editorconfig C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\testCSharpCompiler.cs "obj\\x64\\Debug\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+          CompilerServer: server - server processed compilation - 54c37cea-a52b-47bb-a074-192238c3aec9
+        CopyFilesToOutputDirectory:
+          Kopiowanie pliku z "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\obj\\x64\\Debug\\cmTC_6dac8.exe" do "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\Debug\\cmTC_6dac8.exe".
+          cmTC_6dac8 -> C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\Debug\\cmTC_6dac8.exe
+          Kopiowanie pliku z "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\obj\\x64\\Debug\\cmTC_6dac8.pdb" do "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\Debug\\cmTC_6dac8.pdb".
+        Kompilowanie projektu "C:\\dev\\Muniffic\\Engine-Editor\\Projects\\Quest_for_the_solar_sombrero\\Assets\\Scripts\\CMakeFiles\\CMakeScratch\\TryCompile-ds3jy4\\cmTC_6dac8.csproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.22
+        
+      exitCode: 0
+...

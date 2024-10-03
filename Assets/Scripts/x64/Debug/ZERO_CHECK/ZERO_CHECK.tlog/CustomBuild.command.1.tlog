@@ -1,0 +1,10 @@
+^C:\DEV\MUNIFFIC\ENGINE-EDITOR\PROJECTS\QUEST_FOR_THE_SOLAR_SOMBRERO\ASSETS\SCRIPTS\CMAKEFILES\EACAAE1C6F266792CA36AB049BBA2667\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/Quest_for_the_solar_sombrero.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

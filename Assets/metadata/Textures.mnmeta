@@ -1,0 +1,50 @@
+Resources:
+  - UUID: 6915486127643481679
+    ParentDirectory: 4058848348184294479
+    ResourceName: filled
+    Extension: .png
+    Width: 558
+    Height: 248
+    Channels: 4
+  - UUID: 5971059976421292855
+    ParentDirectory: 4058848348184294479
+    ResourceName: background
+    Extension: .png
+    Width: 1920
+    Height: 1080
+    Channels: 3
+  - UUID: 2868799104352897471
+    ParentDirectory: 4058848348184294479
+    ResourceName: Mushroom
+    Extension: .png
+    Width: 88
+    Height: 103
+    Channels: 4
+  - UUID: 3073514098121636886
+    ParentDirectory: 4058848348184294479
+    ResourceName: player
+    Extension: .png
+    Width: 1080
+    Height: 1920
+    Channels: 4
+  - UUID: 230503048180160378
+    ParentDirectory: 4058848348184294479
+    ResourceName: shield
+    Extension: .png
+    Width: 102
+    Height: 92
+    Channels: 4
+  - UUID: 5765888930754833568
+    ParentDirectory: 4058848348184294479
+    ResourceName: backgroundFinal
+    Extension: .png
+    Width: 1920
+    Height: 1080
+    Channels: 3
+  - UUID: 3111189009044965736
+    ParentDirectory: 4058848348184294479
+    ResourceName: SolidNiceGround
+    Extension: .png
+    Width: 813
+    Height: 275
+    Channels: 4

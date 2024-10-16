@@ -1,5 +1,5 @@
-C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/Quest_for_the_solar_sombrero.dir
-C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/ALL_BUILD.dir
-C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/ZERO_CHECK.dir
-C:/dev/Muniffic/Engine-Editor/Muniffic-ScriptCore/CMakeFiles/Muniffic-ScriptCore.dir
-C:/dev/Muniffic/Engine-Editor/Muniffic-ScriptCore/CMakeFiles/ALL_BUILD.dir
+C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/Quest_for_the_solar_sombrero.dir
+C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/ALL_BUILD.dir
+C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/ZERO_CHECK.dir
+C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Muniffic-ScriptCore/CMakeFiles/Muniffic-ScriptCore.dir
+C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Muniffic-ScriptCore/CMakeFiles/ALL_BUILD.dir

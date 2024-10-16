@@ -470,17 +470,27 @@ Entities:
     TagComponent:
       Tag: Player
     TransformComponent:
-      Translation: [9.4952116, 42.1162033, 0]
+      Translation: [39.5728569, -15.7328272, 0.00342941261]
       Rotation: [0, -0, 0]
       Scale: [1, 1, 1]
       IsInherited: true
       IsInheritedInChildren: true
     SpriteRendererComponent:
-      Color: [1, 1, 1, 1]
+      Color: [1, 1, 1, 0]
       TilingFactor: 1
       TextureUUID: 3073514098121636886
       IsInherited: false
       IsInheritedInChildren: false
+    AnimatorComponent:
+      Speed: 1
+      Animations:
+        - 1238082848663389139
+        - 2153252982231231563
+      Transitions:
+        - From: 0
+          To: 1
+        - From: 1
+          To: 0
     ScriptComponent:
       Scripts:
         - ScriptUUID: 3417852175966508163
@@ -535,7 +545,7 @@ Entities:
         PerspectiveFOV: 0.769999981
         PerspectiveNear: 0.00999999978
         PerspectiveFar: 1000
-        OrthographicSize: 25
+        OrthographicSize: 3
         OrthographicNear: -1
         OrthographicFar: 1
       Primary: true
@@ -662,16 +672,23 @@ Entities:
     TagComponent:
       Tag: Enemy1
     TransformComponent:
-      Translation: [47.9317932, -15.9850054, 0]
-      Rotation: [0, -0, 6.2053789e-07]
+      Translation: [55.3165092, -15.9850054, 0]
+      Rotation: [0, -0, 5.92752372e-07]
       Scale: [1, 1, 1]
       IsInherited: true
       IsInheritedInChildren: true
     SpriteRendererComponent:
-      Color: [0.491640866, 0.224206567, 0.617760658, 1]
+      Color: [0.490196079, 0.223529413, 0.619607866, 0]
       TilingFactor: 1
       IsInherited: false
       IsInheritedInChildren: false
+    AnimatorComponent:
+      Speed: 1
+      Animations:
+        - 473205289181810326
+        - 6454360978865746967
+      Transitions:
+        []
     ScriptComponent:
       Scripts:
         - ScriptUUID: 8655019129409694033
@@ -1121,16 +1138,23 @@ Entities:
     TagComponent:
       Tag: Enemy2
     TransformComponent:
-      Translation: [-6.98473072, 7.51499748, 0]
-      Rotation: [0, -0, 3.17491725e-07]
+      Translation: [0.40001151, 7.51499748, 0]
+      Rotation: [0, -0, 3.37393971e-07]
       Scale: [1, 1, 1]
       IsInherited: true
       IsInheritedInChildren: true
     SpriteRendererComponent:
-      Color: [1, 1, 1, 1]
+      Color: [1, 1, 1, 0]
       TilingFactor: 1
       IsInherited: false
       IsInheritedInChildren: false
+    AnimatorComponent:
+      Speed: 1
+      Animations:
+        - 473205289181810326
+        - 6454360978865746967
+      Transitions:
+        []
     ScriptComponent:
       Scripts:
         - ScriptUUID: 8655019129409694033
@@ -1171,16 +1195,23 @@ Entities:
     TagComponent:
       Tag: Enemy3
     TransformComponent:
-      Translation: [11.0101595, 7.51749039, 0.00498961471]
-      Rotation: [0, -0, 2.19770668e-09]
+      Translation: [18.3949127, 7.51749039, 0.00498961471]
+      Rotation: [0, -0, -9.45403258e-08]
       Scale: [1, 1, 1]
       IsInherited: true
       IsInheritedInChildren: true
     SpriteRendererComponent:
-      Color: [1, 1, 1, 1]
+      Color: [1, 1, 1, 0]
       TilingFactor: 1
       IsInherited: false
       IsInheritedInChildren: false
+    AnimatorComponent:
+      Speed: 1
+      Animations:
+        - 473205289181810326
+        - 6454360978865746967
+      Transitions:
+        []
     ScriptComponent:
       Scripts:
         - ScriptUUID: 8655019129409694033
@@ -1221,16 +1252,23 @@ Entities:
     TagComponent:
       Tag: Enemy4
     TransformComponent:
-      Translation: [36.1308632, 7.51744652, 0]
-      Rotation: [0, -0, -4.04179079e-10]
+      Translation: [43.5155792, 7.51744699, 0]
+      Rotation: [0, -0, 3.94888886e-08]
       Scale: [1, 1, 1]
       IsInherited: true
       IsInheritedInChildren: true
     SpriteRendererComponent:
-      Color: [1, 1, 1, 1]
+      Color: [1, 1, 1, 0]
       TilingFactor: 1
       IsInherited: false
       IsInheritedInChildren: false
+    AnimatorComponent:
+      Speed: 1
+      Animations:
+        - 473205289181810326
+        - 6454360978865746967
+      Transitions:
+        []
     ScriptComponent:
       Scripts:
         - ScriptUUID: 8655019129409694033

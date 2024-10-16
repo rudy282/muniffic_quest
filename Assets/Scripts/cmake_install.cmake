@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts
+# Install script for directory: C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Quest_for_the_solar_sombrero")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Muniffic-ScriptCore")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/dev/Muniffic/Engine-Editor/Muniffic-ScriptCore/cmake_install.cmake")
+  include("C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Muniffic-ScriptCore/cmake_install.cmake")
 
 endif()
 
@@ -53,6 +53,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

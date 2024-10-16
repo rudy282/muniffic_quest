@@ -1,21 +1,21 @@
 Resources:
-  - UUID: 6472203286600223231
+  - UUID: 3071140017917851791
     ParentDirectory: 8695700152821970956
     ResourceName: Quest.EntityTypeComponent
     Extension: .cs
     IsEnabled: true
     Methods:
       []
-  - UUID: 4009712005365842023
+  - UUID: 8905761320388971279
     ParentDirectory: 8695700152821970956
-    ResourceName: Quest.EnemyRunComponent
+    ResourceName: Quest.Player
     Extension: .cs
     IsEnabled: true
     Methods:
       []
-  - UUID: 6530706060921454823
+  - UUID: 7620647470244333199
     ParentDirectory: 8695700152821970956
-    ResourceName: Quest.EntityTypeComponent
+    ResourceName: Quest.Portal
     Extension: .cs
     IsEnabled: true
     Methods:
@@ -34,23 +34,23 @@ Resources:
     IsEnabled: true
     Methods:
       []
-  - UUID: 3071140017917851791
+  - UUID: 4009712005365842023
+    ParentDirectory: 8695700152821970956
+    ResourceName: Quest.EnemyRunComponent
+    Extension: .cs
+    IsEnabled: true
+    Methods:
+      []
+  - UUID: 6530706060921454823
     ParentDirectory: 8695700152821970956
     ResourceName: Quest.EntityTypeComponent
     Extension: .cs
     IsEnabled: true
     Methods:
       []
-  - UUID: 8905761320388971279
+  - UUID: 6472203286600223231
     ParentDirectory: 8695700152821970956
-    ResourceName: Quest.Player
-    Extension: .cs
-    IsEnabled: true
-    Methods:
-      []
-  - UUID: 7620647470244333199
-    ParentDirectory: 8695700152821970956
-    ResourceName: Quest.Portal
+    ResourceName: Quest.EntityTypeComponent
     Extension: .cs
     IsEnabled: true
     Methods:
@@ -111,16 +111,16 @@ Resources:
     IsEnabled: true
     Methods:
       []
-  - UUID: 4036855348082657317
+  - UUID: 2300036723587997797
     ParentDirectory: 8695700152821970956
-    ResourceName: Quest.AttackBoxComponent
+    ResourceName: Quest.RunComponent
     Extension: .cs
     IsEnabled: true
     Methods:
       []
-  - UUID: 2300036723587997797
+  - UUID: 4036855348082657317
     ParentDirectory: 8695700152821970956
-    ResourceName: Quest.RunComponent
+    ResourceName: Quest.AttackBoxComponent
     Extension: .cs
     IsEnabled: true
     Methods:

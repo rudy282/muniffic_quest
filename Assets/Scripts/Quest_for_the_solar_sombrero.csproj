@@ -4,7 +4,7 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8F54B4EB-11B9-34C7-BC42-ABE81EEEAC23}</ProjectGuid>
+    <ProjectGuid>{59F09C49-D062-3CE5-9EB0-B9867B155384}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -17,7 +17,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <OutputPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\</OutputPath>
+    <OutputPath>C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\</OutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <PlatformToolset>v143</PlatformToolset>
     <AssemblyName>Quest_for_the_solar_sombrero</AssemblyName>
@@ -26,7 +26,7 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <OutputPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\</OutputPath>
+    <OutputPath>C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\</OutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <PlatformToolset>v143</PlatformToolset>
     <AssemblyName>Quest_for_the_solar_sombrero</AssemblyName>
@@ -35,7 +35,7 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
-    <OutputPath>C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\Dist\</OutputPath>
+    <OutputPath>C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Binaries\Dist\</OutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <PlatformToolset>v143</PlatformToolset>
     <AssemblyName>Quest_for_the_solar_sombrero</AssemblyName>
@@ -50,81 +50,81 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <None Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeLists.txt">
+    <None Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeLists.txt">
     </None>
   </ItemGroup>
   <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
-    Name="CustomCommand_Debug_91fdc50adc7cd20fc643b1c46fdab70d"
-    Inputs="C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeCSharpCompiler.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeSystem.cmake"
-    Outputs="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
-    <Exec Command="echo Building Custom Rule C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+    Name="CustomCommand_Debug_dfe6781158dbf73537853cda1c65f123"
+    Inputs="C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeCSharpCompiler.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeSystem.cmake"
+    Outputs="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
   </Target>
   <Target Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
-    Name="CustomCommand_Release_91fdc50adc7cd20fc643b1c46fdab70d"
-    Inputs="C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeCSharpCompiler.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeSystem.cmake"
-    Outputs="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
-    <Exec Command="echo Building Custom Rule C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+    Name="CustomCommand_Release_dfe6781158dbf73537853cda1c65f123"
+    Inputs="C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeCSharpCompiler.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeSystem.cmake"
+    Outputs="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
   </Target>
   <Target Condition="'$(Configuration)|$(Platform)'=='Dist|x64'"
-    Name="CustomCommand_Dist_91fdc50adc7cd20fc643b1c46fdab70d"
-    Inputs="C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeCSharpCompiler.cmake;C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.3\CMakeSystem.cmake"
-    Outputs="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
-    <Exec Command="echo Building Custom Rule C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
-    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/dev/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+    Name="CustomCommand_Dist_dfe6781158dbf73537853cda1c65f123"
+    Inputs="C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCSharpInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeCSharpCompiler.cmake;C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\3.30.4\CMakeSystem.cmake"
+    Outputs="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts -BC:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts --check-stamp-file C:/Users/rudy/Documents/GitHub/Muniffic/Engine-Editor/Projects/Quest_for_the_solar_sombrero/Assets/Scripts/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
   </Target>
   <ItemGroup>
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Camera\CameraMove.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\ArmorEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\AttackSpeedBoost.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\DamageBoostEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\Effect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\EffectsComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\FireEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\InstaKill.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\JumpEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\PoisonEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SlowEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SpeedEffect.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SunResistance.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\BaseEnemy.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyAttackBoxComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyMeleeAttackComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyRunComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyShootAttackComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\EntityTypeComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enums.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\GroundCheck.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\HealthComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Fire.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Lava.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Med-kit.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Mushroom.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Portal.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Potion.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Spike.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Star.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\WeightedVest.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\MovementMethods.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\AttackBoxComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\JumpComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\MeleeAttackComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\Player.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\PlayerBullet.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\RunComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\ShootAttackComponent.cs" />
-    <Compile Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\UI\HealthBar.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Camera\CameraMove.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\ArmorEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\AttackSpeedBoost.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\DamageBoostEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\Effect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\EffectsComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\FireEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\InstaKill.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\JumpEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\PoisonEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SlowEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SpeedEffect.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Effects\SunResistance.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\BaseEnemy.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyAttackBoxComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyMeleeAttackComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyRunComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enemies\EnemyShootAttackComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\EntityTypeComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Enums.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\GroundCheck.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\HealthComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Fire.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Lava.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Med-kit.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Mushroom.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Portal.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Potion.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Spike.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\Star.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Map Elements\WeightedVest.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\MovementMethods.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\AttackBoxComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\JumpComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\MeleeAttackComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\Player.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\PlayerBullet.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\RunComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\Players\ShootAttackComponent.cs" />
+    <Compile Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\Source\UI\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\dev\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\ZERO_CHECK.vcxproj">
-      <Project>{763015FB-3681-3858-9D1A-2A637074C019}</Project>
+    <ProjectReference Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Projects\Quest_for_the_solar_sombrero\Assets\Scripts\ZERO_CHECK.vcxproj">
+      <Project>{F144D74B-F0FE-343B-AB0A-224900793738}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\dev\Muniffic\Engine-Editor\Muniffic-ScriptCore\Muniffic-ScriptCore.csproj">
-      <Project>{47531C50-CD1B-3A4F-AA93-F22C8FFFF11F}</Project>
+    <ProjectReference Include="C:\Users\rudy\Documents\GitHub\Muniffic\Engine-Editor\Muniffic-ScriptCore\Muniffic-ScriptCore.csproj">
+      <Project>{C2986B00-21CB-37D9-A12D-4C749616594E}</Project>
       <Name>Muniffic-ScriptCore</Name>
       <SkipGetTargetFrameworkProperties>true</SkipGetTargetFrameworkProperties>
     </ProjectReference>
@@ -140,9 +140,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <BuildDependsOn>
-      CustomCommand_Debug_91fdc50adc7cd20fc643b1c46fdab70d;
-      CustomCommand_Dist_91fdc50adc7cd20fc643b1c46fdab70d;
-      CustomCommand_Release_91fdc50adc7cd20fc643b1c46fdab70d;
+      CustomCommand_Debug_dfe6781158dbf73537853cda1c65f123;
+      CustomCommand_Dist_dfe6781158dbf73537853cda1c65f123;
+      CustomCommand_Release_dfe6781158dbf73537853cda1c65f123;
       $(BuildDependsOn)
 </BuildDependsOn>
   </PropertyGroup>
